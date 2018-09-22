@@ -1,0 +1,44 @@
+[General]
+Default Identity=97613748
+
+[Identity #0]
+Default Domain=linux-zk57
+Disable Fcc=false
+Email Address=maxim.coppieters@student.pxl
+Identity=Maxim Coppieters #1
+Image Location=
+Inline Signature=
+Name=Maxim Coppieters
+PGP Encryption Key=D211A670671C888880FA1DF566C9A46AD7090601
+PGP Signing Key=D211A670671C888880FA1DF566C9A46AD7090601
+Pgp Auto Encrypt=true
+Pgp Auto Sign=true
+Signature Enabled=false
+Transport=-1
+uoid=97613748
+
+[Identity #1]
+Default Domain=maxim-pc
+Disable Fcc=false
+Identity=Maxim
+Image Location=
+Inline Signature=
+Name=Maxim
+Signature Enabled=false
+uoid=211830110
+
+[Identity #2]
+Default Domain=linux-zk57
+Disable Fcc=false
+Email Address=maxim.coppieters@student.pxl
+Identity=Maxim Coppieters
+Image Location=
+Inline Signature=
+Name=Maxim Coppieters
+PGP Encryption Key=D211A670671C888880FA1DF566C9A46AD7090601
+PGP Signing Key=D211A670671C888880FA1DF566C9A46AD7090601
+Pgp Auto Encrypt=true
+Pgp Auto Sign=true
+Signature Enabled=false
+Transport=-1
+uoid=717754060

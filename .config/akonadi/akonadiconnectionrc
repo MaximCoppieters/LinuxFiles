@@ -1,0 +1,10 @@
+[DBUS]
+Address="unix:path=/run/user/1000/bus"
+
+[Data]
+Method=UnixPath
+UnixPath=/tmp/akonadi-maximcoppieters.uJ9mJo/akonadiserver-cmd.socket
+
+[Notifications]
+Method=UnixPath
+UnixPath=/tmp/akonadi-maximcoppieters.uJ9mJo/akonadiserver-ntf.socket

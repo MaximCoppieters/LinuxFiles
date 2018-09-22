@@ -1,0 +1,7 @@
+# GIMP gimp-by-color-select-tool options
+
+(feather yes)
+(feather-radius 0.000000)
+(threshold 38.300000)
+
+# end of gimp-by-color-select-tool options

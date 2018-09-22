@@ -1,0 +1,12 @@
+﻿<settings>
+  <setting name="new-image-width" type="System.Int32">82</setting>
+  <setting name="new-image-height" type="System.Int32">17</setting>
+  <setting name="jpg-quality" type="System.Int32">85</setting>
+  <setting name="default-image-type" type="System.String">jpg</setting>
+  <setting name="ruler-metric" type="System.Int32">0</setting>
+  <setting name="window-maximized" type="System.Boolean">True</setting>
+  <setting name="ruler-shown" type="System.Boolean">False</setting>
+  <setting name="toolbar-shown" type="System.Boolean">True</setting>
+  <setting name="pixel-grid-shown" type="System.Boolean">False</setting>
+  <setting name="last-dialog-directory" type="System.String">/home/maximcoppieters/Pictures</setting>
+</settings>

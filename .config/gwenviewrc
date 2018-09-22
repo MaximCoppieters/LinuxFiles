@@ -1,0 +1,25 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update
+
+[General]
+SideBarPage=folders
+
+[MainWindow]
+Height 1080=1001
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOlAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1920
+
+[Recent Files]
+File1[$e]=$HOME/IdeaProjects/oefeningen/src/main/webapp/WEB-INF/week2/afbeeldingen/Wunderlist.ico
+File2[$e]=$HOME/IdeaProjects/oefeningen/src/main/webapp/WEB-INF/week2/afbeeldingen/Skala.ico
+File3[$e]=$HOME/Dropbox/School/Software_Analysis/Samenvattende_mindmap.png
+Name1[$e]=Wunderlist.ico
+Name2[$e]=Skala.ico
+Name3[$e]=Samenvattende_mindmap.png
+
+[SideBar]
+IsVisible BrowseMode=false
+IsVisible ViewMode=true
+IsVisible ViewMode FullScreen=false
+SideBarSplitterSizes=242,1675

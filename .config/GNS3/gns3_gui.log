@@ -1,0 +1,94 @@
+2018-02-27 20:12:32 INFO logger.py:126 Log level: INFO
+2018-02-27 20:12:32 INFO main.py:252 GNS3 GUI version 2.0.3
+2018-02-27 20:12:32 INFO main.py:253 Copyright (c) 2007-2018 GNS3 Technologies Inc.
+2018-02-27 20:12:32 INFO main.py:255 Application started with /usr/bin/gns3
+2018-02-27 20:12:32 INFO local_config.py:405 Section GraphicsView has missing default values. Adding keys  Saving configuration
+2018-02-27 20:12:32 INFO local_config.py:299 Configuration save to /home/maximcoppieters/.config/GNS3/gns3_gui.conf
+2018-02-27 20:12:32 INFO http_client.py:312 Connection to http://127.0.0.1:3080
+2018-02-27 20:12:32 INFO local_config.py:405 Section VPCS has missing default values. Adding keys  Saving configuration
+2018-02-27 20:12:32 INFO local_config.py:299 Configuration save to /home/maximcoppieters/.config/GNS3/gns3_gui.conf
+2018-02-27 20:12:32 INFO local_config.py:405 Section Dynamips has missing default values. Adding keys  Saving configuration
+2018-02-27 20:12:32 INFO local_config.py:299 Configuration save to /home/maximcoppieters/.config/GNS3/gns3_gui.conf
+2018-02-27 20:12:32 INFO local_config.py:405 Section IOU has missing default values. Adding keys  Saving configuration
+2018-02-27 20:12:32 INFO local_config.py:299 Configuration save to /home/maximcoppieters/.config/GNS3/gns3_gui.conf
+2018-02-27 20:12:32 INFO local_config.py:405 Section Qemu has missing default values. Adding keys  Saving configuration
+2018-02-27 20:12:32 INFO local_config.py:299 Configuration save to /home/maximcoppieters/.config/GNS3/gns3_gui.conf
+2018-02-27 20:12:32 INFO local_config.py:405 Section VirtualBox has missing default values. Adding keys  Saving configuration
+2018-02-27 20:12:32 INFO local_config.py:299 Configuration save to /home/maximcoppieters/.config/GNS3/gns3_gui.conf
+2018-02-27 20:12:32 INFO local_config.py:405 Section VMware has missing default values. Adding keys  Saving configuration
+2018-02-27 20:12:32 INFO local_config.py:299 Configuration save to /home/maximcoppieters/.config/GNS3/gns3_gui.conf
+2018-02-27 20:12:32 INFO local_config.py:405 Section Docker has missing default values. Adding keys  Saving configuration
+2018-02-27 20:12:32 INFO local_config.py:299 Configuration save to /home/maximcoppieters/.config/GNS3/gns3_gui.conf
+2018-02-27 20:13:09 INFO local_server.py:470 Starting local server process with "/usr/bin/gns3server" --local --log="/home/maximcoppieters/.config/GNS3/gns3_server.log" --pid="/home/maximcoppieters/.config/GNS3/gns3_server.pid"
+2018-02-27 20:13:09 INFO local_server.py:483 Local server process has started (PID=22808)
+2018-02-27 20:13:12 ERROR local_server.py:489 Local server process has stopped
+2018-02-27 20:13:12 ERROR local_server.py:491 Traceback (most recent call last):
+  File "/usr/bin/gns3server", line 6, in <module>
+    from pkg_resources import load_entry_point
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 3147, in <module>
+    @_call_aside
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 3131, in _call_aside
+    f(*args, **kwargs)
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 3160, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 666, in _build_master
+    ws.require(__requires__)
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 984, in require
+    needed = self.resolve(parse_requirements(requirements))
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 870, in resolve
+    raise DistributionNotFound(req, requirers)
+pkg_resources.DistributionNotFound: The 'typing>=3.5.3.0' distribution was not found and is required by gns3-server
+
+2018-02-27 20:13:26 INFO http_client.py:312 Connection to http://127.0.0.1:3080
+2018-02-27 20:13:26 INFO local_server.py:470 Starting local server process with "/usr/bin/gns3server" --local --log="/home/maximcoppieters/.config/GNS3/gns3_server.log" --pid="/home/maximcoppieters/.config/GNS3/gns3_server.pid"
+2018-02-27 20:13:26 INFO local_server.py:483 Local server process has started (PID=22810)
+2018-02-27 20:13:27 ERROR local_server.py:489 Local server process has stopped
+2018-02-27 20:13:27 ERROR local_server.py:491 Traceback (most recent call last):
+  File "/usr/bin/gns3server", line 6, in <module>
+    from pkg_resources import load_entry_point
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 3147, in <module>
+    @_call_aside
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 3131, in _call_aside
+    f(*args, **kwargs)
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 3160, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 666, in _build_master
+    ws.require(__requires__)
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 984, in require
+    needed = self.resolve(parse_requirements(requirements))
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 870, in resolve
+    raise DistributionNotFound(req, requirers)
+pkg_resources.DistributionNotFound: The 'typing>=3.5.3.0' distribution was not found and is required by gns3-server
+
+2018-02-27 20:13:36 INFO http_client.py:312 Connection to http://127.0.0.1:3080
+2018-02-27 20:13:37 INFO local_server.py:470 Starting local server process with "/usr/bin/gns3server" --local --log="/home/maximcoppieters/.config/GNS3/gns3_server.log" --pid="/home/maximcoppieters/.config/GNS3/gns3_server.pid"
+2018-02-27 20:13:37 INFO local_server.py:483 Local server process has started (PID=22813)
+2018-02-27 20:13:39 INFO local_config.py:423 Section MainWindow has changed. Saving configuration
+2018-02-27 20:13:39 INFO local_config.py:299 Configuration save to /home/maximcoppieters/.config/GNS3/gns3_gui.conf
+2018-02-27 20:13:41 INFO http_client.py:312 Connection to http://127.0.0.1:3080
+2018-02-27 20:13:42 ERROR local_server.py:489 Local server process has stopped
+2018-02-27 20:13:42 ERROR local_server.py:491 Traceback (most recent call last):
+  File "/usr/bin/gns3server", line 6, in <module>
+    from pkg_resources import load_entry_point
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 3147, in <module>
+    @_call_aside
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 3131, in _call_aside
+    f(*args, **kwargs)
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 3160, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 666, in _build_master
+    ws.require(__requires__)
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 984, in require
+    needed = self.resolve(parse_requirements(requirements))
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 870, in resolve
+    raise DistributionNotFound(req, requirers)
+pkg_resources.DistributionNotFound: The 'typing>=3.5.3.0' distribution was not found and is required by gns3-server
+
+2018-02-27 20:13:46 INFO http_client.py:312 Connection to http://127.0.0.1:3080
+2018-02-27 20:13:51 INFO http_client.py:312 Connection to http://127.0.0.1:3080
+2018-02-27 20:13:56 INFO http_client.py:312 Connection to http://127.0.0.1:3080
+2018-02-27 20:14:01 INFO http_client.py:312 Connection to http://127.0.0.1:3080
+2018-02-27 20:14:06 INFO http_client.py:312 Connection to http://127.0.0.1:3080
+2018-02-27 20:14:11 INFO http_client.py:312 Connection to http://127.0.0.1:3080
+2018-02-27 20:14:15 INFO local_config.py:423 Section MainWindow has changed. Saving configuration
+2018-02-27 20:14:15 INFO local_config.py:299 Configuration save to /home/maximcoppieters/.config/GNS3/gns3_gui.conf

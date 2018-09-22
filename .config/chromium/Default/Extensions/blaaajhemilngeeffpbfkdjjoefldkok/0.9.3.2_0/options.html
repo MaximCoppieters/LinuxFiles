@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html lang="us">
+
+	<head>
+		<meta charset="utf-8">
+		<title>LeechBlock Options</title>
+		<link href="jquery-ui/jquery-ui.min.css" rel="stylesheet">
+		<link href="options.css" rel="stylesheet">
+		<link href="icons/leechblock16.ico" rel="icon" type="image/x-icon">
+		<link href="icons/leechblock16.ico" rel="shortcut icon" type="image/x-icon">
+	</head>
+
+	<body>
+
+		<div id="form-container">
+
+			<form id="form" style="display: none;">
+
+				<div id="tabs">
+					<ul>
+						<li id="tabBlockSet1"><a href="#blockSet1"><span id="blockSetName1">Block Set 1</span></a></li>
+						<li id="tabGeneral"><a href="#paneGeneral">General</a></li>
+						<li id="tabAbout"><a href="#paneAbout">About</a></li>
+					</ul>
+					<div id="blockSet1">
+						<fieldset>
+							<legend>What to Block</legend>
+							<p>
+								<em>In this section, specify the sites you want to block.</em>
+							</p>
+							<hr>
+							<p>
+								<label>Enter a custom name for this block set (optional):</label><br>
+								<div><input id="setName1" type="text" size="60"></div>
+							</p>
+							<p>
+								<label>Enter the domain names of the sites to block (one item per line):</label><br>
+								<div><textarea id="sites1" cols="60" rows="10" spellcheck="false" placeholder="somesite.com" title="Use * as wildcard and + to prefix exceptions"></textarea></div>
+							</p>
+						</fieldset>
+						<fieldset>
+							<legend>When to Block</legend>
+							<p>
+								<em>In this section, specify when you want to block these sites.</em>
+							</p>
+							<hr>
+							<p>
+								<label>Enter the time periods within which to block these sites (optional):</label>
+								<div>
+									<input id="times1" type="text" size="60" placeholder="Example: 0900-1230,1330-1700" title="Leave blank for no time periods">
+									<button id="allDay1" type="button">All Day</button>
+								</div>
+							</p>
+							<p>
+								<label>Enter a time limit after which to block these sites (optional):</label>
+								<div>
+									<input id="limitMins1" type="text" size="4" title="Leave blank for no time limit">
+									minutes in every
+									<select id="limitPeriod1">
+										<option value=""></option>
+										<option value="900">quarter-hour (15 mins)</option>
+										<option value="1800">half-hour (30 mins)</option>
+										<option value="3600">hour</option>
+										<option value="7200">2 hours</option>
+										<option value="10800">3 hours</option>
+										<option value="14400">4 hours</option>
+										<option value="21600">6 hours</option>
+										<option value="43200">half-day (12 hours)</option>
+										<option value="86400">day (24 hours)</option>
+										<option value="172800">2 days (48 hours)</option>
+										<option value="604800">week (7 days)</option>
+									</select>
+								</div>
+							</p>
+							<p>
+								<label>Select when to block these sites:</label>
+								<select id="conjMode1">
+									<option>within time periods OR after time limit</option>
+									<option>within time periods AND after time limit</option>
+								</select>
+								&nbsp;&nbsp;<a href="http://www.proginosko.com/leechblock/faq/difference-or-and/" target="_blank">What's the difference?</a>
+							</p>
+							<p>
+								<label>Select the days on which to block these sites:</label>
+								<div id="days1">
+									<input id="day01" type="checkbox"><label for="day01">Sun</label>
+									&nbsp;
+									<input id="day11" type="checkbox"><label for="day11">Mon</label>
+									&nbsp;
+									<input id="day21" type="checkbox"><label for="day21">Tue</label>
+									&nbsp;
+									<input id="day31" type="checkbox"><label for="day31">Wed</label>
+									&nbsp;
+									<input id="day41" type="checkbox"><label for="day41">Thu</label>
+									&nbsp;
+									<input id="day51" type="checkbox"><label for="day51">Fri</label>
+									&nbsp;
+									<input id="day61" type="checkbox"><label for="day61">Sat</label>
+								</div>
+							</p>
+						</fieldset>
+						<fieldset>
+							<legend>How to Block</legend>
+							<p>
+								<em>In this section, specify how you want to block these sites.</em>
+							</p>
+							<hr>
+							<p>
+								<label>Enter the fully specified URL of the page to show instead of these blocked sites:</label>
+								<div><input id="blockURL1" type="text" size="60" placeholder="http://somesite.com/somepage.html" title="Use $U to pass URL of blocked page"></div>
+							</p>
+							<p>
+								<div>
+									<label>Predefined URLs:</label>
+									<button id="defaultPage1" type="button">Default Page</button>
+									<button id="delayingPage1" type="button">Delaying Page</button>
+									<button id="blankPage1" type="button">Blank Page</button>
+									<button id="homePage1" type="button" hidden="true">Home Page</button>
+								</div>
+							</p>
+							<hr>
+							<p>
+								<input id="activeBlock1" type="checkbox">
+								<label for="activeBlock1">Immediately block pages on these sites once blocking conditions are met</label>
+							</p>
+							<p>
+								<input id="countFocus1" type="checkbox">
+								<label for="countFocus1">Count time spent on these sites only when browser tab is active</label>
+							</p>
+							<p>
+								<input id="delayFirst1" type="checkbox">
+								<label for="delayFirst1">Block only first accessed page of site when delaying page is used</label>
+							</p>
+							<p>
+								Delay access to sites by <input id="delaySecs1" type="text" size="2"> seconds when delaying page is used
+							</p>
+							<p>
+								<input id="allowOverride1" type="checkbox">
+								<label for="allowOverride1">Allow temporary override for these sites</label>
+							</p>
+						</fieldset>
+						<p>
+							<button id="showAdvOpts1" type="button">Show Advanced Options</button>
+						</p>
+						<fieldset id="advOpts1">
+							<legend>Advanced Options</legend>
+							<p>
+								<em>Be sure you understand the consequences of these options before changing any of them!</em>
+							</p>
+							<hr>
+							<p>
+								<input id="showTimer1" type="checkbox">
+								<label for="showTimer1">Show countdown timer for this block set</label>
+							</p>
+							<hr>
+							<p>
+								<input id="prevOpts1" type="checkbox">
+								<label for="prevOpts1">Prevent access to options for this block set at times when these sites are blocked</label>
+							</p>
+							<p>
+								<input id="prevExts1" type="checkbox">
+								<label for="prevExts1">Prevent access to chrome://extensions at times when these sites are blocked</label>
+							</p>
+							<hr>
+							<p>
+								<label>Load list of sites from URL:</label>
+								<div><input id="sitesURL1" type="text" size="60" title="Use $S to pass block set number and $T to pass UTC timestamp in milliseconds">
+								&nbsp;&nbsp;<a href="http://www.proginosko.com/leechblock/faq/load-from-url/" target="_blank">What does this do?</a></div>
+							</p>
+							<p>
+								<label>Use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions" target="_blank">regular expression</a>
+								to match URLs to <strong>block</strong> (overrides list of sites):</label>
+								<div>
+									<input id="regexpBlock1" type="text" size="50">
+									<button id="clearRegExpBlock1" type="button">Clear</button>
+									<button id="genRegExpBlock1" type="button">Generate From Site List</button>
+								</div>
+							</p>
+							<p>
+								<label>Use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions" target="_blank">regular expression</a>
+								to match URLs to <strong>allow</strong> (overrides exceptions in list of sites):</label>
+								<div>
+									<input id="regexpAllow1" type="text" size="50">
+									<button id="clearRegExpAllow1" type="button">Clear</button>
+									<button id="genRegExpAllow1" type="button">Generate From Site List</button>
+								</div>
+							</p>
+							<p>
+								<input id="ignoreHash1" type="checkbox">
+								<label for="ignoreHash1">Ignore fragment (hash part) when checking URL</label>
+							</p>
+							<hr>
+							<p>
+								<button id="cancelLockdown1" type="button" disabled="true">Cancel Active Lockdown</button>
+							</p>
+						</fieldset>
+					</div>
+					<div id="paneGeneral">
+						<fieldset>
+							<legend>Access Control</legend>
+							<p>
+								<label>Select the requirement for access to options:</label><br>
+								<div>
+									<select id="optionsAccess">
+										<option value="0">Don't require the user to enter any password or access code</option>
+										<option value="1">Require the user to enter a password</option>
+										<option value="2">Require the user to enter a random 32-character access code</option>
+										<option value="3">Require the user to enter a random 64-character access code</option>
+										<option value="4">Require the user to enter a random 128-character access code</option>
+									</select>
+								</div>
+							</p>
+							<p>
+								<label>Password:</label>
+								<input id="accessPassword" type="text" size="60">
+							</p>
+							<p>
+								<input id="hidePassword" type="checkbox">
+								<label for="hidePassword">Hide password characters when entered at prompt</label>
+							</p>
+						</fieldset>
+						<fieldset>
+							<legend>Countdown Timer</legend>
+							<p>
+								<input id="timerVisible" type="checkbox">
+								<label for="timerVisible">Show timer over page</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;
+								<label>Size:</label>
+								<select id="timerSize">
+									<option value="0">small</option>
+									<option value="1">medium</option>
+									<option value="2">large</option>
+									<option value="3">extra large</option>
+								</select>
+								&nbsp;&nbsp;&nbsp;&nbsp;
+								<label>Location:</label>
+								<select id="timerLocation">
+									<option value="0">top left</option>
+									<option value="1">top right</option>
+									<option value="2">bottom right</option>
+									<option value="3">bottom left</option>
+								</select>
+							</p>
+							<p>
+								<input id="timerBadge" type="checkbox">
+								<label for="timerBadge">Show timer as icon badge (if time left is less than 10 minutes)</label>
+							</p>
+							<p>
+								<strong>Tip:</strong> Double-click on the over-page timer to hide it at any time (e.g., before printing page).
+							</p>
+						</fieldset>
+						<fieldset>
+							<legend>Temporary Override</legend>
+							<p>
+								Allow blocking to be suspended for a period of <input id="overrideMins" type="text" size="2" title="Leave blank for no override"> minutes
+							</p>
+							<p>
+								<label>Select the requirement for activating the override:</label><br>
+								<div>
+									<select id="overrideAccess">
+										<option value="0">Don't require the user to enter any password or access code</option>
+										<option value="1">Require the user to enter the access control password</option>
+										<option value="2">Require the user to enter a random 32-character access code</option>
+										<option value="3">Require the user to enter a random 64-character access code</option>
+										<option value="4">Require the user to enter a random 128-character access code</option>
+									</select>
+								</div>
+							</p>
+						</fieldset>
+						<fieldset>
+							<legend>Miscellaneous</legend>
+							<p>
+								<input id="contextMenu" type="checkbox">
+								<label for="contextMenu">Show context menu</label>
+							</p>
+							<p>
+								<input id="matchSubdomains" type="checkbox">
+								<label for="matchSubdomains">Block all subdomains (not just www)</label>
+							</p>
+							<p>
+								Display warning message <input id="warnSecs" type="text" size="2" title="Leave blank for no warning"> seconds before site is blocked
+							</p>
+							<p>
+								<input id="warnImmediate" type="checkbox">
+								<label for="warnImmediate">Only display warning message on pages that will be immediately blocked</label>
+							</p>
+							<p>
+								<input id="processActiveTabs" type="checkbox">
+								<label for="processActiveTabs">Process only active tabs (improves performance when multiple tabs open)</label>
+							</p>
+						</fieldset>
+						<fieldset>
+							<legend>Export / Import</legend>
+							<p>
+								<button id="exportOptions" type="button">Export Options</button>
+								<button id="importOptions" type="button">Import Options</button>
+								<input type="file" id="importFile">
+							</p>
+						</fieldset>
+					</div>
+					<div id="paneAbout">
+						<p>
+							<a href="http://www.proginosko.com/leechblock/" target="_blank"><img src="images/leechblock_logo.png" alt="LeechBlock logo" title="LeechBlock"></a>
+						</p>
+						<p>
+							<a href="http://www.proginosko.com/leechblock/" target="_blank">LeechBlock NG</a>
+							(Next Generation) is a simple productivity tool designed to<br>
+							block those time-wasting sites that can suck the life out of your working day.<br>
+							All you need to do is specify which sites to block and when to block them.
+						</p>
+						<p><strong>Author:</strong> James Anderson</p>
+						<p><strong>Contributor:</strong> Dario Kolac (graphics)</p>
+						<p><strong>Examples:</strong>
+						<a href="http://www.proginosko.com/leechblock/examples/" target="_blank">http://www.proginosko.com/leechblock/examples/</a></p>
+						<p><strong>FAQ:</strong>
+						<a href="http://www.proginosko.com/leechblock/faq/" target="_blank">http://www.proginosko.com/leechblock/faq/</a></p>
+						<p><strong>Support:</strong>
+						<a href="http://www.proginosko.com/leechblock/support/" target="_blank">http://www.proginosko.com/leechblock/support/</a></p>
+					</div>
+				</div>
+
+				<p style="text-align: center;">
+					<button id="saveOptions" type="button">Save Options</button>
+					<button id="saveOptionsClose" type="button">Save Options &amp; Close</button>
+				</p>
+
+			</form>
+
+		</div>
+
+		<div id="alerts" style="display: none;">
+			<div id="alertRetrieveError" title="LeechBlock Options">
+				<p><strong>Error:</strong> Unable to retrieve options from browser storage.</p>
+			</div>
+			<div id="alertBadTimes" title="LeechBlock Options">
+				<p>Please enter the time periods in the correct format. Use 24-hour clock format (HHMM) for times,
+				a dash (-) between start time and end time, and commas or spaces to separate time periods.</p>
+			</div>
+			<div id="alertBadTimeLimit" title="LeechBlock Options">
+				<p>Please enter the time limit in the correct format (as a positive whole number).</p>
+			</div>
+			<div id="alertBadSeconds" title="LeechBlock Options">
+				<p>Please enter the number of seconds in the correct format (as a positive whole number).</p>
+			</div>
+			<div id="alertBadMinutes" title="LeechBlock Options">
+				<p>Please enter the number of minutes in the correct format (as a positive whole number).</p>
+			</div>
+			<div id="alertBadBlockURL" title="LeechBlock Options">
+				<p>Please enter the URL for the blocking page in the correct format (as a fully specified URL).</p>
+			</div>
+			<div id="alertNoImportFile" title="LeechBlock Options">
+				<p>Please select a file containing the options to import.</p>
+			</div>
+			<div id="alertImportError" title="LeechBlock Options">
+				<p><strong>Error:</strong> Unable to import options from file.</p>
+			</div>
+			<div id="alertImportSuccess" title="LeechBlock Options">
+				<p>The options have been imported successfully.</p>
+			</div>
+			<div id="alertLockdownCancel" title="LeechBlock Options">
+				<p>The active lockdown has been canceled.</p>
+			</div>
+		</div>
+
+		<div id="prompts" style="display: none;">
+			<div id="promptPassword" title="LeechBlock Options">
+				<p>Enter the password for access to options:</p>
+				<p><input id="promptPasswordInput" type="text" size="60"></p>
+			</div>
+			<div id="promptAccessCode" title="LeechBlock Options">
+				<p>Enter the following code for access to options:</p>
+				<p id="promptAccessCodeText"></p>
+				<p><input id="promptAccessCodeInput" type="text" size="64"></p>
+			</div>
+		</div>
+
+		<script src="jquery-ui/external/jquery/jquery.js"></script>
+		<script src="jquery-ui/jquery-ui.min.js"></script>
+		<script src="common.js"></script>
+		<script src="options.js"></script>
+
+	</body>
+
+</html>

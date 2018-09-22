@@ -1,0 +1,14 @@
+[Display]
+bgcolor=251,251,63
+
+[Editor]
+titlefont=Liberation Sans,12,-1,5,50,0,0,0,0,0,Regular
+
+[KNotesKeyDialog]
+Size=338,200
+
+[Migratekde4]
+Version=1
+
+[SelectedNotefolderDialog]
+Size=600,400

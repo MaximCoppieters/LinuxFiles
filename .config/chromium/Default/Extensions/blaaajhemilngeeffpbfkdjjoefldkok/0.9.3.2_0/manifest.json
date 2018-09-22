@@ -1,0 +1,35 @@
+{
+   "background": {
+      "scripts": [ "common.js", "background.js" ]
+   },
+   "browser_action": {
+      "browser_style": false,
+      "default_icon": {
+         "16": "icons/leechblock16.png",
+         "32": "icons/leechblock32.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "LeechBlock"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "LeechBlock is a simple productivity tool designed to block those time-wasting sites that can suck the life out of your working day.",
+   "homepage_url": "http://www.proginosko.com/leechblock/",
+   "icons": {
+      "48": "icons/leechblock48.png",
+      "96": "icons/leechblock96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvn3k7TCr1B0Gai3NPWNuQmLxXDY2uToExLFYAgO7scJUtBs8RjHlV4MdfpFEECw6aEihZNXEU17EjkfnhLanwlBtu0nopEvgHUtHWo0TaDq05dwU2hd0duNGn/RRORNDT+L0Hei2KkyHPYHF27V0KSNAvIRQ1e3ojdJ7WN8JW0WTx7HnEidQpo5CgAGglorcpwzSpwsa2juxIm7vu+1P/vn3cY3WM3a6seK5THFBo5ffKxI9+rmG6jxYqq+KOeKAjEjaeJfenwV3iFdWI2KsU5m42HfcOwxmOsTyzs924GGxb1oUJWgAP8mbQ7+FjXw3jDIGYuX61Ay+mYV11wX8swIDAQAB",
+   "manifest_version": 2,
+   "name": "LeechBlock NG",
+   "optional_permissions": [ "\u003Call_urls>" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "downloads", "contextMenus", "storage", "tabs", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.3.2"
+}

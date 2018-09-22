@@ -1,0 +1,28 @@
+[Data Source]
+DisplayName=11701080@student.pxl.be
+Enabled=true
+Parent=609466ade1ffb65cffa1a2231b6b97675768ab38
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://609466ade1ffb65cffa1a2231b6b97675768ab38/Concepten
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=11701080@student.pxl.be
+Aliases=
+Name=Maxim
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://609466ade1ffb65cffa1a2231b6b97675768ab38/Verzonden%20items
+TransportUid=cdab5d96c13319d35d4133c0f40704a9c42a984d
+RepliesToOriginFolder=false
+UseSentFolder=true

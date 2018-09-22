@@ -1,0 +1,5 @@
+[General]
+dbVersion=2
+exclude filters=*.orig,*.so,*.qmlc,CTestTestfile.cmake,*.part,confstat,*.csproj,moc_*.cpp,*.jsc,.histfile.*,.hg,*.init,cmake_install.cmake,.yarn,lzo,qrc_*.cpp,po,*.aux,.xsession-errors*,*.po,*.ini,.bzr,*.pyo,.obj,CMakeFiles,CMakeCache.txt,*.tmp,autom4te,ui_*.h,config.status,.svn,*.elc,node_packages,*.nvram,*.vm*,*.lo,.uic,*.qrc,*.map,lost+found,.git,*.m4,*.rcore,*.o,*.class,CMakeTmp,*.swap,*~,__pycache__,*.pyc,conftest,*.gmo,.yarn-cache,_darcs,libtool,.moc,core-dumps,litmain.sh,*.omf,.npm,nbproject,*.pc,CVS,node_modules,*.rej,*.la,*.a,.pch,CMakeTmpQmake,Makefile.am,*.loT,confdefs.h,*.moc,*.db
+exclude filters version=3
+first run=false

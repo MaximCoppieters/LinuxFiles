@@ -1,0 +1,15 @@
+[Added Associations]
+application/x-bzip=org.gnome.FileRoller.desktop;
+application/x-bzip-compressed-tar=org.gnome.FileRoller.desktop;
+application/x-desktop=firefox.desktop;org.kde.kate.desktop;writer.desktop;okularApplication_txt.desktop;wine-extension-txt.desktop;
+application/zip=gnome-shell-extension-prefs.desktop;
+audio/mpeg=org.kde.dragonplayer.desktop;rhythmbox.desktop;
+image/jpeg=org.gnome.Totem.desktop;gimp.desktop;
+image/png=gimp.desktop;
+text/html=chromium-browser.desktop;org.gnome.gedit.desktop;
+video/mp4=vlc.desktop;
+
+[Default Applications]
+application/x-desktop=firefox.desktop;
+audio/mpeg=org.kde.dragonplayer.desktop;
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop

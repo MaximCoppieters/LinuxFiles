@@ -1,0 +1,69 @@
+[Containments][22][General]
+AppletOrder=23
+
+[Containments][27][General]
+AppletOrder=28;29;30;31;33
+
+[Containments][32][General]
+extraItems=org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications
+knownItems=org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications
+
+[Containments][45][General]
+AppletOrder=46
+
+[Containments][61][General]
+AppletOrder=62
+
+[Containments][63][General]
+AppletOrder=64
+
+[Containments][65][General]
+AppletOrder=66;67;69;71
+
+[Containments][70][General]
+extraItems=org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications
+knownItems=org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications
+
+[KFileDialog Settings]
+Recent Files[$e]=groot-i-am-root-qhd-1920x1080.jpg,file:$HOME/Pictures/Wallpapers/cropped-2560-1440-110279.jpg,file:$HOME/Pictures/Wallpapers/alena-aenami-serenity-1k.jpg,file:$HOME/bin/idea,file:///usr/share/webstorm/bin/webstorm.sh,file:///usr/share/webstorm/bin/webstorm.png,file:///usr/share/idea-IU-181.4203.550/bin/idea.png,file:///usr/share/idea-IU-181.4203.550/bin/idea.sh,file:///usr/share/intelliJ/Install-Linux-tar.txt
+Recent URLs[$e]=file:///usr/share/webstorm/,file:///opt/pt/bin/,file:$HOME/Pictures/,file:$HOME/Downloads/,file:$HOME/bin/,file:$HOME/Pictures/Wallpapers/
+
+[KPropertiesDialog]
+Height 1080=456
+Width 1920=424
+
+[PlasmaRunnerManager]
+LaunchCounts=26 services_org.kde.kcalc.desktop,1 shell_krunner,1 services_kwinscreenedges.desktop,17 services_gimp.desktop,4 services_IntelliJ.desktop,3 services_impress.desktop,4 baloosearch_/home/maximcoppieters/Documents/Books/Algorithms_4th_edition.pdf,1 services_kamerka.desktop,2 services_kcmsmserver.desktop,3 services_kcm_desktoptheme.desktop,145 services_jetbrains-webstorm.desktop,1 services_Starbound.desktop,1 baloosearch_/home/maximcoppieters/dev/tomcat/webapps/docs/architecture/startup,2 services_kwinscripts.desktop,9 services_gpick.desktop,8 services_kcm_kdeconnect.desktop,217 services_jetbrains-idea.desktop,8 services_kcm_phonon.desktop,1 services_kcm_fonts.desktop,2 services_org.kde.kontact.desktop,2 services_kcmkded.desktop,1 services_org.kde.kmail2.desktop,3 services_YaST2-disk.desktop,31 services_org.kde.spectacle.desktop,4 services_org.kde.kmousetool.desktop,1 services_org.kde.discover.desktop,1 services_kamera.desktop,8 services_standard_actions.desktop,3 services_YaST2-keyboard.desktop,89 services_chromium-browser.desktop,2 services_Redshift.desktop,20 services_steam.desktop,3 services_kcm_pulseaudio.desktop,12 services_YaST.desktop,4 services_pt7.desktop,11 services_keys.desktop,2 services_filezilla.desktop,8 services_pt6.desktop,2 services_kcmtrash.desktop,2 services_kwintabbox.desktop,1 services_konsolesu.desktop,1 services_powerdevilglobalconfig.desktop,1 services_fontinst.desktop,20 services_clementine.desktop,1 services_pavucontrol.desktop,4 services_khotkeys.desktop,10 services_kcm_kscreen.desktop,1 services_org.kde.gwenview.desktop,3 services_kcm_networkmanagement.desktop,1 services_intelliJ.desktop,3 services_org.kde.dolphinsu.desktop,37 services_vlc.desktop,1 services_systemsettings.desktop,1 services_webshortcuts.desktop,1 services_nic.desktop,66 services_Android Studio.desktop,1 services_desktoppath.desktop,1 services_cache.desktop,3 services_kcm_touchpad.desktop,1 services_desktop.desktop,14 services_writer.desktop,1 services_org.kde.knotes.desktop,4 services_kcm_icons.desktop,4 services_YaST2-sound.desktop,165 services_virtualbox.desktop,7 services_autostart.desktop,3 services_kcm_keyboard.desktop,76 services_Discord.desktop,2 services_org.kde.kdenlive.desktop,1 services_YaST2-sudo.desktop,3 services_com.github.needle-and-thread.vocal.desktop,7 services_org.kde.kmix.desktop,1 baloosearch_/home/maximcoppieters/Downloads/idea-IU-173.4548.28,10 services_Transmission.desktop,2 services_discord.desktop,2 services_wine-Programs-Cisco Packet Tracer-Cisco Packet Tracer.desktop
+pluginWhiteList=services,shell,bookmarks,baloosearch,locations
+
+[PlasmaViews][Panel 2][Horizontal1024]
+thickness=30
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=50
+
+[PlasmaViews][Panel 22][Horizontal1920]
+thickness=27
+
+[PlasmaViews][Panel 27][Horizontal1920]
+thickness=36
+
+[PlasmaViews][Panel 45][Horizontal1920]
+thickness=27
+
+[PlasmaViews][Panel 61][Horizontal1920]
+thickness=27
+
+[PlasmaViews][Panel 63][Horizontal1920]
+thickness=27
+
+[PlasmaViews][Panel 65][Vertical1080]
+thickness=36
+
+[ScreenConnectors]
+0=eDP-1
+1=DP-2
+2=:0.0
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

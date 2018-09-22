@@ -1,0 +1,57 @@
+[Data Source]
+DisplayName=11701080@student.pxl.be
+Enabled=true
+Parent=
+
+[Offline]
+StaySynchronized=false
+
+[Refresh]
+Enabled=true
+IntervalMinutes=60
+
+[Authentication]
+Host=smtp.office365.com
+Method=none
+Port=143
+ProxyUid=system-proxy
+RememberPassword=true
+User=11701080@student.pxl.be
+CredentialName=
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=832cf554791d7852837ce2fbd949d4eb00a3fa7d
+ArchiveFolder=
+NeedsInitialSetup=false
+
+[Security]
+Method=starttls-on-standard-port
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+LimitByAge=false
+LimitUnit=years
+LimitValue=1
+UseMultiFetch=false
+CheckAll=false
+CheckSubscribed=false
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=Ongewenste e-mail
+RealTrashPath=Verwijderde items
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=false
+UseNamespace=false
+UseQresync=false
+UseRealJunkPath=true
+UseRealTrashPath=true
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false

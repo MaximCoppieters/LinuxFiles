@@ -1,0 +1,15 @@
+[General]
+last-saved-to[$e]=$HOME/Pictures
+lastSaveAsLocation=file:///home/maximcoppieters/
+
+[GuiConfig]
+captureModeIndex=4
+cropRegion=420,672,510,94
+includeDecorations=true
+includePointer=false
+lastUsedSaveMode=0
+window-position=950,81
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/AndroidStudioProjects/programming_quiz/images/kahit_logo.png,file:$HOME/skypeforlinux.png
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/AndroidStudioProjects/programming_quiz/images/,file:$HOME/AndroidStudioProjects/programming_quiz/,file:$HOME/vimwiki/

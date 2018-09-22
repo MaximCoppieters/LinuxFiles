@@ -1,0 +1,11 @@
+[General]
+SplitterSizes=856,1063
+
+[KFileDialog Settings]
+Recent Files[$e]=idea.sh,file:$HOME/.steam/steam/steamapps/common/Starbound/linux/starbound,file:///usr/bin/discord,file:$HOME/dev/android-studio/bin/studio.sh,file:$HOME/dev/android-studio/bin/studio.png,file:$HOME/dev/firefox_dev/firefox,file:$HOME/dev/firefox_dev/browser/chrome/icons/default/default128.png,file:$HOME/dev/firefox_dev/icons/updater.png,file:///usr/bin/transmission,file:///usr/share/transmission/web/images/favicon.png,file:$HOME/dev/jdk/code_java.png,file:$HOME/Documents/docs/images/tt.png,file:$HOME/dev/jdk/java_icon.png,file:$HOME/dev/Discord/discord.png,file:$HOME/dev/Discord/Discord
+Recent URLs[$e]=file:$HOME/dev/firefox_dev/browser/chrome/icons/default/,file:$HOME/dev/firefox_dev/,file:$HOME/dev/android-studio/bin/,file:$HOME/dev/android-studio/,file:///usr/,file:$HOME/.steam/steam/steamapps/common/Starbound/linux/,file:$HOME/.steam/steam/steamapps/common/Starbound/
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOlAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Window-Maximized 1080x1920=true

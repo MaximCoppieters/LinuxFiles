@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=/usr/bin/redshift -b 0.8:0.3 -l 50.39:8.07
+GenericName[en_US]=
+GenericName=
+Icon=kcolorchooser
+MimeType=
+Name[en_US]=Redshift
+Name=Redshift
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-RunOnDiscreteGpu=false
+X-KDE-SubstituteUID=false
+X-KDE-Username=

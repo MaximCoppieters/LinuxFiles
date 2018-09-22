@@ -1,0 +1,5 @@
+[CollectionDialog]
+Size=600,400
+
+[View]
+QRCodes=true

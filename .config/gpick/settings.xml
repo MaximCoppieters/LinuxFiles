@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding='UTF-8'?><root>
+<gpick type="dynv">
+<converters type="dynv">
+<window type="dynv">
+<height type="int32">194</height>
+<width type="int32">304</width>
+</window>
+</converters>
+<generate_scheme type="dynv">
+</generate_scheme>
+<layout_preview type="dynv">
+<css_selectors type="dynv">
+<assignments type="dynv">
+<menu_b type="dynv">
+<color type="color">0.7 0.7 0.7 4.58197e-41</color>
+</menu_b>
+<navitem_b type="dynv">
+<color type="color">0.3 0.3 0.3 3.08706e-41</color>
+</navitem_b>
+<navitem_bh type="dynv">
+<color type="color">0.3 0.3 0.3 0</color>
+</navitem_bh>
+<navitem_t type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</navitem_t>
+<navitem_th type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</navitem_th>
+</assignments>
+</css_selectors>
+<layout_name type="string">std_layout_menu_1</layout_name>
+</layout_preview>
+<main type="dynv">
+<color_source type="string">color_picker</color_source>
+<paned_position type="int32">463</paned_position>
+<secondary_color_source type="string"></secondary_color_source>
+<vertical_paned_position type="int32">0</vertical_paned_position>
+<window type="dynv">
+<height type="int32">438</height>
+<width type="int32">522</width>
+<x type="int32">957</x>
+<y type="int32">339</y>
+</window>
+</main>
+<picker type="dynv">
+<contrast type="dynv">
+<color type="color">1 1 1 4.58197e-41</color>
+</contrast>
+<expander type="dynv">
+<cmyk type="bool">false</cmyk>
+<hsl type="bool">true</hsl>
+<hsv type="bool">false</hsv>
+<info type="bool">false</info>
+<lab type="bool">false</lab>
+<lch type="bool">false</lch>
+<rgb type="bool">false</rgb>
+<settings type="bool">false</settings>
+</expander>
+<sampler type="dynv">
+<falloff type="int32">0</falloff>
+<oversample type="int32">0</oversample>
+</sampler>
+<swatch type="dynv">
+<active_color type="int32">1</active_color>
+<color1 type="color">0.690196 0.109804 0.556863 0</color1>
+<color2 type="color">0.537255 0.54902 0.556863 3.07067e-41</color2>
+<color3 type="color">0 0.47451 0.827451 3.07067e-41</color3>
+<color4 type="color">0.431373 0.513726 0.627451 3.08734e-41</color4>
+<color5 type="color">1 0.964706 0.94902 0</color5>
+<color6 type="color">0.00392157 0.658824 0.909804 0</color6>
+</swatch>
+<zoom type="float">20</zoom>
+<zoom_size type="int32">150</zoom_size>
+</picker>
+<recent type="dynv">
+</recent>
+</gpick>
+</root>

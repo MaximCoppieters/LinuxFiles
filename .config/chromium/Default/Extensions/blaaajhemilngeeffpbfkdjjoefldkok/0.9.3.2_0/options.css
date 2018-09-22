@@ -1,0 +1,74 @@
+/* LeechBlock options CSS style */
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background-color: #fff;
+	color: #000;
+	font-size: 14px;
+}
+
+.ui-widget hr {
+	height: 0px;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #888;
+}
+
+.ui-widget fieldset {
+	border: 1px solid #000;
+}
+
+.ui-widget legend {
+	font-weight: bold;
+}
+
+.ui-widget a {
+    color: #2ca089;
+    text-decoration: none;
+}
+
+.ui-widget a:hover {
+    text-decoration: underline;
+}
+
+.ui-widget th, td {
+	text-align: center;
+	padding: 4px 12px;
+}
+
+#form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#tabs {
+	display: inline-block;
+}
+
+#paneAbout {
+	color: #2e3436;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+#promptAccessCodeText {
+	font: normal 14px monospace;
+	user-select: none;
+	-moz-user-select: none;
+}
+
+#promptAccessCodeInput {
+	font: normal 14px monospace;
+}
+
+@media (max-width: 800px) {
+	.ui-widget {
+		font-size: 12px;
+	}
+}

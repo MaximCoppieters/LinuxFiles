@@ -1,0 +1,507 @@
+{
+	"folder_history":
+	[
+		"/home/maximcoppieters/bin/PXLFoodNotify",
+		"/home/maximcoppieters/bin/PXL---Google-Calendar-import",
+		"/home/maximcoppieters/Desktop/Vakken/java_essentials/oplossingen"
+	],
+	"last_version": 3143,
+	"last_window_id": 11,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 354.0,
+				"last_filter": "rem",
+				"selected_items":
+				[
+					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"Install",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 464.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/maximcoppieters/bin/PXL---Google-Calendar-import/README.md",
+				"/home/maximcoppieters/bin/PXL---Google-Calendar-import/getData.py",
+				"/home/maximcoppieters/Desktop/Vakken/java_essentials/oplossingen/WorkingWithGradle/build.gradle",
+				"/home/maximcoppieters/bin/PXL---Google-Calendar-import/quickstart.py",
+				"/home/maximcoppieters/sys",
+				"/home/maximcoppieters/bin/PXL---Google-Calendar-import/datetime",
+				"/home/maximcoppieters/bin/PXL---Google-Calendar-import/getData",
+				"/home/maximcoppieters/bin/PXL---Google-Calendar-import/os",
+				"/home/maximcoppieters/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings"
+			],
+			"find":
+			{
+				"height": 36.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"li",
+					"\\[.+\\]*?",
+					"\\[.+\\].+",
+					"[.+]",
+					"\\{.+\\}"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 36.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/Python/Python.sublime-build",
+			"replace":
+			{
+				"height": 68.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 221.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <title>about elks</title>\n    </head>\n    <body>\n        <p> Hello_world </p>\n    </body>\n</html>\n",
+					"file": "/home/maximcoppieters/voorbeeld1.html",
+					"file_size": 173,
+					"file_write_time": 131623851463556997,
+					"settings":
+					{
+						"buffer_size": 171,
+						"line_ending": "Unix",
+						"name": "<!DOCTYPE html>"
+					}
+				},
+				{
+					"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n    \t<title>De schoenbekooievaar</title>\n    </head>\n    <body>\n        <h1>De Schoenbekooievaar</h1>\n\n        <p>De schoenbekooievaar is een <span><strong>vogel</strong></span> met een grijs verenkleed. </p>\n\n        <p>\n        \tDanzij zijn brede bek kan hij makkelijk vis vangen (scheppen) in het troebele water. Het dier verblijft in de natte gebieden en moerassen van de <a href=\"https://nl.wikipedia.org/wiki/Sudd\">Suddregio</a>\n\n            <img src=\"https://puu.sh/zfHbs/93a7ad752b.png\" alt=\"foto\"/>\n        </p>\n    </body>\n</html>\n",
+					"file": "/home/maximcoppieters/validatie.html",
+					"file_size": 624,
+					"file_write_time": 131623863951976785,
+					"settings":
+					{
+						"buffer_size": 606,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Jpl</title>\n    </head>\n    <body>\n        <h1>Jupiler Pro League</h1>\n        <h2>Play-off 1</h2>\n        <ol>\n            <li> Club brugge </li>\n            <li> Charleroi </li>\n            <li> Anderlecht </li>\n            <li> AA Gent </li>\n            <li> Antwerp </li>\n            <li> Racing Genk </li>\n        </ol>\n        <h2>Play-off 2</h2>\n        <h3>Groep A </h3>\n        <ul>\n            <li> Club brugge </li>\n            <li> Charleroi </li>\n            <li> Anderlecht </li>\n            <li> AA Gent </li>\n            <li> Antwerp </li>\n            <li> Racing Genk </li>\n        </ul>\n        <h3>Groep B</h3>\n        <ul>\n            <li> Maasland </li>\n            <li> Lorem ipsum </li>\n            <li> Dolor </li>\n            <li> Genk </li>\n            <li> Antwerp </li>\n            <li> Racing Genk </li>\n        </ul>\n    </body>\n</html>\n",
+					"file": "/home/maximcoppieters/jupilerHtml.html",
+					"file_size": 947,
+					"file_write_time": 131623883516707163,
+					"settings":
+					{
+						"buffer_size": 947,
+						"line_ending": "Unix",
+						"name": "<!DOCTYPE html>"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 354.0,
+				"last_filter": "rem",
+				"selected_items":
+				[
+					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"Install",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 464.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/maximcoppieters/bin/PXL---Google-Calendar-import/README.md",
+				"/home/maximcoppieters/bin/PXL---Google-Calendar-import/getData.py",
+				"/home/maximcoppieters/Desktop/Vakken/java_essentials/oplossingen/WorkingWithGradle/build.gradle",
+				"/home/maximcoppieters/bin/PXL---Google-Calendar-import/quickstart.py",
+				"/home/maximcoppieters/sys",
+				"/home/maximcoppieters/bin/PXL---Google-Calendar-import/datetime",
+				"/home/maximcoppieters/bin/PXL---Google-Calendar-import/getData",
+				"/home/maximcoppieters/bin/PXL---Google-Calendar-import/os",
+				"/home/maximcoppieters/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings"
+			],
+			"find":
+			{
+				"height": 36.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"ul",
+					"li",
+					"\\[.+\\]*?",
+					"\\[.+\\].+",
+					"[.+]",
+					"\\{.+\\}"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/maximcoppieters/voorbeeld1.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 171,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										63,
+										63
+									]
+								],
+								"settings":
+								{
+									"auto_name": "<!DOCTYPE html>",
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/maximcoppieters/validatie.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 606,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/maximcoppieters/jupilerHtml.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 947,
+								"regions":
+								{
+									"bookmarks":
+									{
+										"flags": 144,
+										"icon": "bookmark",
+										"regions":
+										[
+											[
+												553,
+												555
+											]
+										],
+										"scope": "bookmarks"
+									}
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"auto_name": "<!DOCTYPE html>",
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 217.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 36.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/Python/Python.sublime-build",
+			"position": "0,1,0,0,0,319,0,959,480,3840,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 68.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 221.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

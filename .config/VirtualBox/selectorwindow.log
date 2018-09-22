@@ -1,0 +1,27 @@
+VirtualBox GUI VM Selector Window 5.2.18_SUSE r123745 linux.amd64 (Aug 30 2018 12:00:00) release log
+00:00:00.353695 Log opened 2018-09-22T14:54:40.178089000Z
+00:00:00.353696 Build Type: release
+00:00:00.353699 OS Product: Linux
+00:00:00.353701 OS Release: 4.18.7-1-default
+00:00:00.353702 OS Version: #1 SMP PREEMPT Sun Sep 9 10:26:20 UTC 2018 (952d850)
+00:00:00.353725 DMI Product Name: HP EliteBook 850 G4
+00:00:00.353732 DMI Product Version: 
+00:00:00.353786 Host RAM: 15919MB (15.5GB) total, 6191MB (6.0GB) available
+00:00:00.353791 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.353792 Process ID: 13489
+00:00:00.353793 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.353814 Qt version: 5.11.1
+00:00:00.393632 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.797892 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1920x0 x 1920x1030
+00:00:00.814342 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 0x0 x 1920x1080
+00:00:00.820933 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:03.377019 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:03.787852 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:16.092018 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:16.474827 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:52.970429 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:53.018563 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:21.284268 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:03:21.496745 2D support test succeeded
+00:03:21.758446 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:50.652060 GUI: UIMediumEnumerator: Medium-enumeration finished!

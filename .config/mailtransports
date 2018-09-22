@@ -1,0 +1,19 @@
+[General]
+default-transport=1371616713
+
+[Transport 1371616713]
+auth=true
+host=student.pxl
+id=1371616713
+name=student.pxl
+storepass=true
+user=maxim.coppieters@student.pxl
+
+[Transport 520735705]
+auth=true
+encryption=TLS
+host=student.pxl
+id=520735705
+name=student.pxl
+storepass=true
+user=maxim.coppieters@student.pxl

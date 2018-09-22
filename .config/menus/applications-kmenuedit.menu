@@ -1,0 +1,101 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd'>
+<Menu>
+ <Menu>
+  <Name>Development</Name>
+  <Include>
+   <Filename>Javadoc.desktop</Filename>
+   <Filename>Android Studio.desktop</Filename>
+  </Include>
+  <Exclude>
+   <Filename>IntelliJ.desktop</Filename>
+  </Exclude>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>Android Studio.desktop</Filename>
+   <Filename>jetbrains-webstorm.desktop</Filename>
+   <Filename>jetbrains-idea.desktop</Filename>
+   <Filename>git-gui.desktop</Filename>
+   <Merge type="menus"/>
+   <Menuname>Translation</Menuname>
+   <Menuname>Web Development</Menuname>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>Multimedia</Name>
+  <Include>
+   <Filename>Discord.desktop</Filename>
+   <Filename>Transmission.desktop</Filename>
+  </Include>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>Discord.desktop</Filename>
+   <Filename>Transmission.desktop</Filename>
+   <Filename>org.kde.dragonplayer.desktop</Filename>
+   <Filename>org.kde.k3b.desktop</Filename>
+   <Filename>com.github.needle-and-thread.vocal.desktop</Filename>
+   <Separator/>
+   <Merge type="menus"/>
+   <Menuname>More</Menuname>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>.hidden</Name>
+  <Include>
+   <Filename>IntelliJ.desktop</Filename>
+  </Include>
+ </Menu>
+ <Menu>
+  <Name>Internet</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>Firefox Developer.desktop</Filename>
+   <Merge type="menus"/>
+   <Menuname>Terminal</Menuname>
+   <Filename>org.kde.akregator.desktop</Filename>
+   <Filename>chromium-browser.desktop</Filename>
+   <Filename>firefox.desktop</Filename>
+   <Filename>org.kde.kmail2.desktop</Filename>
+   <Filename>kde4-knetattach.desktop</Filename>
+   <Filename>org.kde.konversation.desktop</Filename>
+   <Filename>org.kde.ktnef.desktop</Filename>
+   <Filename>org.kde.pimsettingexporter.desktop</Filename>
+   <Filename>org.kde.sieveeditor.desktop</Filename>
+   <Filename>vncviewer.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Include>
+   <Filename>Firefox Developer.desktop</Filename>
+  </Include>
+ </Menu>
+ <Menu>
+  <Name>chrome-apps</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>Redshift.desktop</Filename>
+   <Filename>chrome-jndclpdbaamdhonoechobihbbiimdgai-Default.desktop</Filename>
+  </Layout>
+  <Include>
+   <Filename>Redshift.desktop</Filename>
+  </Include>
+ </Menu>
+ <Menu>
+  <Name>Games</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>Starbound.desktop</Filename>
+   <Merge type="menus"/>
+   <Menuname>Arcade</Menuname>
+   <Menuname>Board</Menuname>
+   <Menuname>Card</Menuname>
+   <Menuname>Kidsgames</Menuname>
+   <Menuname>Logic</Menuname>
+   <Menuname>TacticStrategy</Menuname>
+   <Menuname>Toys</Menuname>
+   <Filename>steam.desktop</Filename>
+  </Layout>
+  <Include>
+   <Filename>Starbound.desktop</Filename>
+  </Include>
+ </Menu>
+</Menu>
