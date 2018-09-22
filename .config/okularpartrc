@@ -1,8 +1,0 @@
-[Dlg Accessibility]
-BWContrast=6
-BWThreshold=26
-RecolorBackground=255,255,255
-RecolorForeground=85,0,0
-
-[Document]
-RenderMode=Recolor

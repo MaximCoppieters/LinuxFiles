@@ -1,8 +1,0 @@
-# GIMP gimp-ink-tool options
-
-(foreground (color-rgb 0.862745 0.384314 0.294118))
-(brush-size 51.000000)
-(brush-hardness 0.500000)
-(blob-type square)
-
-# end of gimp-ink-tool options

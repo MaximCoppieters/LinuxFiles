@@ -1,9 +1,0 @@
-[Desktop Entry]
-Comment=Text and voice chat for gamers.
-Exec=/usr/lib64/discord/Discord
-Hidden=true
-Icon=/usr/lib64/discord/discord.png
-Name=Discord
-NoDisplay=false
-Type=Application
-X-GNOME-Autostart-enabled=false

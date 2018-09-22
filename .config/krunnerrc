@@ -1,5 +1,0 @@
-[General]
-history=ls,switch,#ls,term
-
-[PlasmaRunnerManager]
-LaunchCounts=1 desktopsessions,1 locations_openunknown,2 shell_ls
